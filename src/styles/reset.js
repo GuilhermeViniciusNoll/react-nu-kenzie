@@ -18,7 +18,7 @@ button{
 
 html,
 body{
-    width:100vw ;
+    width:99vw ;
     height: auto;
     overflow-x: hidden;
     margin-bottom: 35px;
