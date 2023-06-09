@@ -19,13 +19,21 @@ export const StyleContainerMain = createGlobalStyle`
     justify-content: center;
 }
 
-.subContainer{
+.subContainer, .subContainerHeader{
     width: 100%;
     max-width: 1000px;
     margin: 50px 15px;
+    gap: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+@media (max-width: 959px){
+    .subContainer{
+        justify-content: center;
+    }
+}
+
 `

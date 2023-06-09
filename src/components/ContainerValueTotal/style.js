@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { modelH3, modelParagraph } from "../../styles/globalStyle.js"
+import { modelH2, modelParagraph } from "../../styles/globalStyle.js"
 
 export const StyleDivContainer = styled.div`
     
@@ -21,7 +21,7 @@ export const StyleDivContainer = styled.div`
     }
 
     div > h2{
-        ${modelH3}
+        ${modelH2}
     }
 
     .value{

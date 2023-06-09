@@ -14,10 +14,9 @@ export const GlobalStyle = createGlobalStyle`
 
     --fontFamily: "Nunito", sans-serif;
 
-    --fontSize1:2.375rem;
-    --fontSize2:1.375rem;
-    --fontSize3:1rem;
-    --fontSize4:.75rem;
+    --fontSize1:1.375rem;
+    --fontSize2:1rem;
+    --fontSize3:.75rem;
 
     --weight1:800;
     --weight2:700;
@@ -46,29 +45,22 @@ export const modelH2 = css`
     color: var(--colorGrey1);
 `
 
-export const modelH3 = css`
-    font-size: var(--fontSize3);
-    font-weight: var(--weight2);
-    line-height: var(--lineHeight3);
-    color: var(--colorGrey1); 
-`
-
 export const modelLabel = css`
-    font-size: var(--fontSize4);
-    font-weight: var(--weight3);
+    font-size: var(--fontSize3);
+    font-weight: var(--weight4);
     line-height: var(--lineHeight4);
     color: var(--colorGrey1);
 `
 
 export const modelParagraph = css`
-    font-size: var(--fontSize4);
+    font-size: var(--fontSize3);
     font-weight: var(--weight4);
     line-height: var(--lineHeight5);
     color: var(--colorGrey1);
 `
 
 export const modelPlaceholder = css`
-    font-size: 1rem;
+    font-size: var(--fontSize2);
     font-weight: var(--weight4);
     line-height: var(--lineHeight4);
     color: var(--colorGrey2);

@@ -16,7 +16,7 @@ export function Item({ item, launchList, setLauchList }) {
     return (
         <StyleLiContainer key={item.id} type={item.type} >
             <div className="containerItem">
-                <h3>{item.description}</h3>
+                <h2>{item.description}</h2>
                 <p>{item.type}</p>
             </div>
             <div>

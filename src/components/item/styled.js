@@ -1,5 +1,5 @@
 import { styled, css } from "styled-components"
-import { modelH3, modelParagraph } from "../../styles/globalStyle.js"
+import { modelH2, modelParagraph } from "../../styles/globalStyle.js"
 
 export const StyleLiContainer = styled.li`
 
@@ -24,7 +24,6 @@ export const StyleLiContainer = styled.li`
     height: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     gap: 25px;
 
@@ -39,8 +38,8 @@ export const StyleLiContainer = styled.li`
         align-items: start;
     }
 
-    div > h3{
-        ${modelH3}
+    div > h2{
+        ${modelH2}
     }
 
     div > p{

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { modelLabel, modelPlaceholder, modelParagraph } from "../../styles/globalStyle.js"
+
 
 export const StyleHeaderContainer = styled.header`
     display: flex;

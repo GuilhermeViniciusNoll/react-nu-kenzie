@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { modelH3 } from "../../styles/globalStyle.js"
+import { modelH2 } from "../../styles/globalStyle.js"
 
 export const StyleFormContainer = styled.form`
     display: flex;
@@ -20,7 +20,7 @@ export const StyleFormContainer = styled.form`
     border: solid 2px var(--colorPrimary);
     border-radius: 8px;
     background-color: var(--colorPrimary);
-    ${modelH3}
+    ${modelH2}
     color: var(--colorWhite);
     }
 

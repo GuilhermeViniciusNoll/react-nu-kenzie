@@ -5,8 +5,8 @@ import { ContainerValueTotal } from "./components/ContainerValueTotal/index.jsx"
 import { Form } from "./components/Form/index.jsx"
 import { ResetStyle } from "./styles/reset.js"
 import { GlobalStyle } from "./styles/globalStyle.js"
-import { StyleDivContainer } from "./styles/appStyle.js"
-import { StyleContainerMain } from "./styles/appStyle.js"
+import { StyleDivContainer, StyleContainerMain } from "./styles/appStyle.js"
+
 
 function App() {
 
@@ -44,7 +44,7 @@ function App() {
           </StyleDivContainer>
           <SectionList setLauchList={setLauchList} launchList={launchList} />
         </div>
-      </section>
+      </section >
     </>
   )
 }
